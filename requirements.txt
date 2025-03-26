@@ -1,0 +1,7 @@
+streamlit
+json
+uuid
+supabase
+PIL
+io
+requests
