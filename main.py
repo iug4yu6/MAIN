@@ -19,19 +19,6 @@ def get_emoji(rating):
 # 👉 Name & Email Fields
 name = st.text_input("Name", placeholder="Enter your name")
 email = st.text_input("Email", placeholder="Enter your email")
-st.markdown("""
-<div style='
-    background-color:#f0f8ff;
-    border-left: 6px solid #1e90ff;
-    padding: 10px 15px;
-    border-radius: 10px;
-    margin-top: 5px;
-    font-size: 16px;
-'>
-    💡 <b>Why your name & email?</b><br>
-    We ❤️ rewarding our most loyal foodies per week! Drop your details to get exclusive 🎁 offers & cash prize 🎉 in future visits. Just show the coupon and get your reward 🎁.
-</div>
-""", unsafe_allow_html=True)
 
 st.markdown("---")
 
